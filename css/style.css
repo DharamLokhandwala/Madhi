@@ -1,0 +1,487 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: #1a2855;
+  top: 0%;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay img {
+  height: 300px;
+}
+
+.overlay span {
+  font-size: 30px;
+  letter-spacing: 3px;
+}
+
+header{
+    background-image: url("../images/Group\ 44@2x-min.png");
+    background-position: center;
+    background-size: cover;
+    min-height: 880px;
+}
+
+header .caption{
+    margin-left: 10vw;
+    margin-top: 6vw;
+}
+
+
+
+.caption a{
+    padding-bottom: 10px;
+}
+
+.card-title{
+    font-family: 'Patrick Hand', cursive;
+}
+.navbar-contents{
+    font-family: 'Barlow', sans-serif;
+}
+.nav-items li:hover{
+    background-color: #ffab00;
+  color: #000;
+}
+.nav-items li a{
+  color: #ffab00;
+}
+.nav-items li a:hover{
+  color: #000000;
+}
+
+.tagline-container h1{
+  font-family: 'Patrick Hand', cursive;
+}
+canvas{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background:#fff;
+  width: 100%;
+  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.khamniBox{
+  /* background: url("../images/confetti_1.png");
+  background-position: center;
+  background-size: cover; */
+  margin-top: 3vw;
+  margin-bottom: 1.3vw;
+  padding-top: 3vw;
+  height: 550px;
+}
+.khamniBox h1{
+  color: #1A2855;
+  padding-top: 50px;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.aboutus{
+    background-color: #fff;
+    background-position: center;
+    background-size: cover;
+    min-height: 650px;
+    padding-top: 10vw;
+
+}
+
+.aboutus{
+    font-family: 'Barlow', sans-serif;
+}
+.aboutus p{
+    font-size: 20px;
+}
+
+.flexing{
+
+  width: 100%;
+  min-height: 800px;
+  background: url("../svg/Group\ 3.svg");
+  background-size: cover;
+  text-align: center;
+}
+.flexing h1{
+  width: 100%;
+  font-size: 100px;
+  color: #fff;
+  font-weight: 700;
+  align-items: center;
+}
+.speciality{
+  padding-top: 5vw;
+    height: 100%;
+    font-family: 'Patrick Hand', cursive;
+}
+.khamni h4{
+    font-family: 'Barlow', sans-serif;
+}
+
+
+.contact-info .row h6{
+    margin: 0;
+}
+
+.slider .slides {
+  background-color: transparent;
+  margin: 0;
+  height: 400px;
+}
+
+.page-footer{
+  background-color: #1A2855;
+  
+}
+.page-footer .footer-copyright{
+  background-color: #111c3e;
+
+}
+
+
+#map {
+    height: 200px;
+    width: 100%; 
+    border-radius: 15px; 
+   }
+
+
+.card .card-image .card-title{
+    font-size: 30px;
+    padding: 0px;
+    width: 100%;
+    /* background-color: #1B2956; */
+}
+
+.reviews-container{
+  padding-top: 10vw;
+  padding-bottom: 10vw;
+  background: url("../svg/reviewscontainer.svg");
+    background-size: cover;
+    min-height: 600px;
+}
+
+.slider .indicators .indicator-item.active {
+  background-color: #ffab00;
+}
+
+blockquote {
+  margin: 20px 0;
+  padding-left: 1.5rem;
+  border-left: 5px solid #ffab00;
+}
+.items .row{
+  margin: 0;
+}
+.rotate{
+  animation: spin 10s infinite linear;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate:hover{
+  animation-play-state: paused;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Teko:700);
+.snip1543 {
+  background-color: #fff;
+  color: #000;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  margin: 10px;
+  max-width: 500px;
+  min-width: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+  width: 100%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+
+.snip1543 *,
+.snip1543 *:before,
+.snip1543 *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1543 img {
+  backface-visibility: hidden;
+  max-width: 100%;
+  vertical-align: top;
+}
+
+.snip1543:before,
+.snip1543:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: '';
+  background-color: #e7b34aaa;
+  opacity: 0.5;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1543:before {
+  -webkit-transform: skew(30deg) translateX(-80%);
+  transform: skew(30deg) translateX(-80%);
+}
+
+.snip1543:after {
+  -webkit-transform: skew(-30deg) translateX(-70%);
+  transform: skew(-30deg) translateX(-70%);
+}
+
+.snip1543 figcaption {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  z-index: 1;
+  bottom: 0;
+  padding: 25px 40% 25px 20px;
+}
+
+.snip1543 figcaption:before,
+.snip1543 figcaption:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ffaa00cb;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+  content: '';
+  opacity: 0.5;
+  z-index: -1;
+}
+
+.snip1543 figcaption:before {
+  -webkit-transform: skew(30deg) translateX(-100%);
+  transform: skew(30deg) translateX(-100%);
+}
+
+.snip1543 figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(-90%);
+  transform: skew(-30deg) translateX(-90%);
+}
+
+.snip1543 h3,
+.snip1543 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1543 h3 {
+  font-family: 'Teko', sans-serif;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+
+.snip1543 p {
+  font-size: 0.9em;
+}
+
+.snip1543 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1543:hover h3,
+.snip1543.hover h3,
+.snip1543:hover p,
+.snip1543.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 0.9;
+  -webkit-transition-delay: 0.2s;
+  transition-delay: 0.2s;
+}
+
+.snip1543:hover:before,
+.snip1543.hover:before {
+  -webkit-transform: skew(30deg) translateX(-20%);
+  transform: skew(30deg) translateX(-20%);
+  -webkit-transition-delay: 0.05s;
+  transition-delay: 0.05s;
+}
+
+.snip1543:hover:after,
+.snip1543.hover:after {
+  -webkit-transform: skew(-30deg) translateX(-10%);
+  transform: skew(-30deg) translateX(-10%);
+}
+
+.snip1543:hover figcaption:before,
+.snip1543.hover figcaption:before {
+  -webkit-transform: skew(30deg) translateX(-40%);
+  transform: skew(30deg) translateX(-40%);
+  -webkit-transition-delay: 0.15s;
+  transition-delay: 0.15s;
+}
+
+.snip1543:hover figcaption:after,
+.snip1543.hover figcaption:after {
+  -webkit-transform: skew(-30deg) translateX(-30%);
+  transform: skew(-30deg) translateX(-30%);
+  -webkit-transition-delay: 0.1s;
+  transition-delay: 0.1s;
+}
+
+/* button collision effect */
+.read-more{
+  background-color: #1A2855;
+  color: #FDC500;
+}
+.read-more:hover{
+  background-color: #2744a4;
+}
+@media screen and (max-width: 800px){
+  .overlay img {
+    height: 180px;
+  }
+    header{
+        min-height: 650px;
+    }
+    header .caption h1{
+        margin-left: 10vw;
+        margin-top: 20vw;
+    }
+    .tagline-container h1{
+        font-family: 'Patrick Hand', cursive;
+        font-size: 3rem;
+        padding-top: 10vw;
+    }
+    .khamniBox{
+      height: 600px;
+    }
+    .khamniBox h1{
+      align-content: center ;
+      font-size: 3rem;
+    }
+    .aboutus p{
+        font-size: 20px;
+    }
+    .flexing{
+
+      width: 100%;
+      min-height: 600px;
+      background: url("../svg/familysvg-mini.svg");
+      background-size: cover;
+      text-align: center;
+    }
+    .flexing h1 {
+      width: 100%;
+      font-size: 58px;
+      color: #fff;
+      font-weight: 700;
+      align-items: center;
+  }
+  .flexing h2{
+    font-size: 1.56rem;
+  }
+  .slider{
+    height: 640px !important;
+  }
+  .slides{
+    height: 600px !important;
+  }
+}
+@media screen and (max-width: 900px){
+    header{
+       
+        background-position: center;
+        background-size: cover;
+        min-height: 880px;
+    }
+}
+
+
+
+.thumbnails {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    transition: transform .3s;
+  }
+  
+  .thumbnails img {
+    width: 100%;
+    object-fit: cover;
+    object-position: 50% 20%;
+  }
+  
+  .black {
+    text-align: center;
+    background: #000;
+    background-blend-mode: multiply;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: .7;
+  }
+  
+  .title {
+    color: #fff;
+    font-size: 3em;
+    align-self: center;
+    position: absolute;
+    z-index: 10;
+  }
+  
+  .black, .title {
+    transition: opacity .3s;
+  }
+  
+  .thumbnails:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    z-index: 20;
+  }
+  
+  .thumbnails:hover .black,
+  .thumbnails:hover .title {
+    opacity: 0;
+  }

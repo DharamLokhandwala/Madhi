@@ -1,0 +1,113 @@
+html{
+    scroll-behavior: smooth;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.navbar-contents{
+    font-family: 'Barlow', sans-serif;
+}
+
+.index-nav{
+    background-color: #fff;
+    box-shadow: none;
+    
+}
+
+.index-nav-div .index-nav{
+    margin-bottom: 10px;
+}
+
+.nav-items li:hover{
+    background-color: #ffab00;
+  color: #000;
+}
+.nav-items li a{
+  color: #ffab00;
+}
+.nav-items li a:hover{
+  color: #000000;
+}
+
+.img-hover-zoom img{
+    border-radius: 15px;
+}
+
+.index-nav a{
+    font-family: 'Heebo', sans-serif;
+    font-size: 20px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: gray;
+}
+
+.index-nav a:hover{
+    cursor: pointer;
+    color: #ffc400;
+}
+
+
+.contact-info .row h6{
+    margin: 0;
+}
+
+
+.page-footer{
+    background-color: #773C1C;
+    font-family: 'Barlow', sans-serif;
+}
+.page-footer .footer-copyright{
+    background-color: #5d2405;
+}
+
+#map {
+    height: 200px;
+    width: 100%;  
+    border-radius: 15px;
+}
+
+.product-name{
+    padding-top: 2.4em;
+}
+.row .col{
+    padding: 10px;
+}
+
+.img-hover-zoom {
+ /* [1.1] Set it as per your need */
+    overflow: hidden; /* [1.2] Hide the overflowing of child elements */
+  }
+  
+  /* [2] Transition property for smooth transformation of images */
+  .img-hover-zoom img {
+    transition: transform .5s ease;
+  }
+  
+  /* [3] Finally, transforming the image when container gets hovered */
+  .img-hover-zoom:hover img {
+    transform: scale(1.2);
+  }
+
+
+@media screen and (max-width: 900px){
+    .row .col{
+        padding: 10px;
+    }
+    .index-nav a{
+        font-size: 15px
+    }
+
+    .index-nav-div nav{
+        line-height: 25px;
+    }
+
+    .index-nav-div{
+        margin-top: 40px;
+    }
+
+    .product-name h2{
+        font-size: 35px;
+    }
+
+}
